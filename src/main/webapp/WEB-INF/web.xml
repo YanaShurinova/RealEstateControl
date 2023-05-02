@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+
+    <servlet>
+        <servlet-name>enter</servlet-name>
+        <jsp-file>/signification/enter.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>enter</servlet-name>
+        <url-pattern>/enter/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>registration</servlet-name>
+        <jsp-file>/signification/registration.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>registration</servlet-name>
+        <url-pattern>/registration/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongRegistration</servlet-name>
+        <jsp-file>/signification/WrongRegistration.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WrongRegistration</servlet-name>
+        <url-pattern>/registrationError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>userinfo</servlet-name>
+        <jsp-file>/clients/userinfo.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>userinfo</servlet-name>
+        <url-pattern>/userinfo/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>error</servlet-name>
+        <jsp-file>/signification/error.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>error</servlet-name>
+        <url-pattern>/error/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>estates</servlet-name>
+        <jsp-file>/real_estates/MyRealEstates.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>estates</servlet-name>
+        <url-pattern>/estates/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>statistics</servlet-name>
+        <jsp-file>/statistics/statistics.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>statistics</servlet-name>
+        <url-pattern>/statistics/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>users</servlet-name>
+        <jsp-file>/clients/users.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>users</servlet-name>
+        <url-pattern>/users/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>menu</servlet-name>
+        <jsp-file>/menu/menu.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>menu</servlet-name>
+        <url-pattern>/menu/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>estate</servlet-name>
+        <jsp-file>/real_estates/MyRealEstate.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>estate</servlet-name>
+        <url-pattern>/estate/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NewEstate</servlet-name>
+        <jsp-file>/real_estates/NewEstate.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NewEstate</servlet-name>
+        <url-pattern>/NewEstate/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editSpending</servlet-name>
+        <jsp-file>/real_estates/editSpending.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editSpending</servlet-name>
+        <url-pattern>/editSpending/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>changeUserInfo</servlet-name>
+        <jsp-file>/clients/changeUserInfo.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>changeUserInfo</servlet-name>
+        <url-pattern>/changeUserInfo/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addSpending</servlet-name>
+        <jsp-file>/real_estates/addSpending.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addSpending</servlet-name>
+        <url-pattern>/addSpending/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addOutcome</servlet-name>
+        <jsp-file>/real_estates/addOutcome.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addOutcome</servlet-name>
+        <url-pattern>/addOutcome/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongEnter</servlet-name>
+        <jsp-file>/signification/WrongEnter.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WrongEnter</servlet-name>
+        <url-pattern>/enterError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongEditSpending</servlet-name>
+        <jsp-file>/real_estates/WrongEditSpending.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>WrongEditSpending</servlet-name>
+    <url-pattern>/editSpendingError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongOutcomeEditSpending</servlet-name>
+        <jsp-file>/real_estates/WrongOutcome.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WrongOutcomeEditSpending</servlet-name>
+        <url-pattern>/editOutcomeError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongChanheUserInfo</servlet-name>
+        <jsp-file>/clients/WrongChangeUserInfo.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WrongChanheUserInfo</servlet-name>
+        <url-pattern>/ChangeUserInfoError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongAddIncome</servlet-name>
+        <jsp-file>/real_estates/WrongAddIncome.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WrongAddIncome</servlet-name>
+        <url-pattern>/AddIncomeError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongAddEstate</servlet-name>
+        <jsp-file>/real_estates/WrongAddEstate.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WrongAddEstate</servlet-name>
+        <url-pattern>/AddEstateError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>WrongChangeEstate</servlet-name>
+        <jsp-file>/real_estates/WrongChangeEstate.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WrongChangeEstate</servlet-name>
+        <url-pattern>/ChangeEstateError/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangeEstate</servlet-name>
+        <jsp-file>/real_estates/changeEstate.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeEstate</servlet-name>
+        <url-pattern>/ChangeEstate/*</url-pattern>
+    </servlet-mapping>
+
+
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.html</location>
+    </error-page>
+</web-app>

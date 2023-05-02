@@ -1,0 +1,409 @@
+body {
+    background: whitesmoke;
+
+}
+.start_menu body{
+    font-size:1.3rem;
+}
+.start_menu a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    margin: 0 10px 0 10px;
+    font-size: 28px;
+    display: inline;
+    transition: color .2s;
+    color:#191970;
+}
+.start_menu a:hover{
+    color:#008080;
+}
+.start_menu ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.start_menu li {display: inline-block;}
+.start_menu li:after {
+    content: " ";
+    color: #606060;
+    display: inline;
+    vertical-align:top;
+}
+.enter_and_reg a{
+    text-decoration: none;
+    position: relative;
+    margin: 0 5px 0 5px;
+    font-size: 20px;
+    display: inline;
+    color:#191970
+}
+.enter_and_reg a:hover{
+    color:#008080;
+}
+.enter{
+    margin-top: 100px;
+    text-align: center;
+    text-align-all: center;
+    line-height: 1.3cm;
+}
+.enter label{
+    font-size:25px;
+    font-weight: bold;
+    color:#191970;
+}
+.enter input{
+    font-size: 30px;
+}
+.enter input[type="submit"]{
+    width: 90px;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    color:#191970;
+}
+.enter input[type="submit"]:hover{
+    background-color: skyblue;
+    color:#000000;
+}
+.ent_button button{
+    width: 90px;
+    height: 30px;
+    margin: 0 0 0 100px;
+    font-size: 20px;
+    color:#191970;
+}
+.ent_button button:hover{
+    background-color: skyblue;
+    color:#000000;
+}
+.reg_button button{
+    width: 90px;
+    height: 30px;
+    margin: 0 0 0 290px;
+    font-size: 20px;
+    color:#191970;
+}
+.reg_button button:hover{
+    background-color: skyblue;
+    color:#000000;
+}
+.list_estates img{
+    margin: 30px 0 0 30px;
+}
+.list_estates p{
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 50px;
+    font-size: 25px;
+}
+.list_estates a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 25px;
+    display: inline;
+}
+.list_estates a:hover{
+    color:#008080;
+}
+.list_estates button{
+    font-size: 18px;
+}
+.list_estates button:hover {
+    background-color: skyblue;
+    color:#000000;
+}
+.list_estates li{
+    list-style: none;
+    margin: 0 0 0 400px;
+}
+.add_button button{
+    margin: 30px 0 0 60px;
+    font-size: 18px;
+    display: inline;
+}
+.add_button button:hover {
+    background-color: skyblue;
+    color:#000000;
+}
+.color_header_1 {
+    font-size: 40px;
+    color:#191970;
+    margin: 10px 10px 10px 10px;
+}
+.add_button2 button{
+    margin: 0 0 0 330px;
+    font-size: 20px;
+    display: inline;
+}
+.user_info input[type="text"]{
+    font-size: 30px;
+}
+.user_info input[type="password"]{
+    font-size: 30px;
+}
+.user_info input[type="file"]{
+    font-size: 18px;
+}
+.user_info input[type="date"]{
+    font-size: 25px;
+}
+.add_button2 button:hover {
+    background-color: skyblue;
+    color:#000000;
+}
+.nav-tabs ul{
+    align-items: center;
+    display: block;
+    position: relative;
+
+}
+.nav-item{
+    margin: 0 100px 0 100px;
+    align-items: center;
+    position: relative;
+}
+.deleteBut button{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    min-width: 70px;
+}
+.changeBut button{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    min-width: 70px;
+}
+.tab-pane-text p{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+
+}
+.tab-content{
+    margin-left: 240px;
+}
+.flex-container{
+    display: flex;
+    width: available;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 20px;
+    align-items: center;
+}
+.flex-container-col{
+    display: flex;
+    width: available;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.flex-item{
+
+}
+
+.list_users ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 0;
+}
+.list_users li{
+    list-style: none;
+}
+.list_users a{
+    text-decoration: none;
+    color:#191970;
+}
+.list_users a:hover{
+    color:#008080;
+}
+.list_users{
+    text-align: center;
+    font-size: 25px;
+    color:#191970;
+    line-height: 1.5cm;
+    margin:50px 0 0 0;
+}
+.user_info label{
+    font-size: 25px;
+    font-weight: bold;
+    color:#191970;
+}
+.user_info div{
+    font-size: 25px;
+    color:#191970;
+    font-weight: bold;
+}
+.user_info input{
+    font-size: 25px;
+}
+.user_info a{
+    text-decoration: none;
+    color:#191970;
+    font-size: 25px;
+}
+.user_info a:hover{
+    color:#008080;
+}
+.user_info{
+    line-height: 1.3cm;
+    margin:20px 0 0 40px;
+}
+.user_info_but {
+    margin: 30px 0 0 280px;
+    font-size: 18px;
+    color:#191970;
+}
+.user_info_but:hover{
+    background-color: skyblue;
+    color:#000000;
+}
+.user_info_but a{
+    text-decoration: none;
+    color:#191970;
+}
+.edit_info_but {
+    margin: 30px 0 0 215px;
+    font-size: 18px;
+    color:#191970;
+}
+.edit_info_but:hover{
+    background-color: skyblue;
+    color:#000000;
+}
+.spend_button button{
+    margin: 0 0 0 335px;
+    font-size: 18px;
+    color:#191970;
+}
+.spend_button button:hover{
+    background-color: skyblue;
+    color:#000000;
+}
+.bar_graph1{
+    width: 600px;
+    height: 500px;
+    margin:40px 10px 40px 10px;
+}
+.error {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.3cm;
+    color: #191970;
+}
+.error2 {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    line-height: 1.1cm;
+    color: #191970;
+}
+.error3 a{
+    text-align: center;
+    text-decoration: none;
+    color:#191970;
+    font-size: 20px;
+}
+.error3 a:hover{
+    color:#008080;
+}
+.text2cols-item {
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    background: whitesmoke;
+}
+.choose_estate{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    color: #191970;
+    margin:10px 10px 0 10px;
+}
+.text_area{
+    width: 375px;
+    min-width: 325px;
+    min-height: 190px;
+    font-size: 25px;
+    color: #191970;
+}
+.result_values{
+    margin: 10px 10px 0 10px;
+    font-size: 20px;
+    color: #191970;
+}
+.result_values2{
+    margin: 70px 10px 0 10px;
+    font-size: 20px;
+    color: #191970;
+}
+
+
+
+
+
+
+
+*{
+    font-family: Areal;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.4);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:7cm 8cm 8cm 15.5cm;
+    width:8.75cm;
+    height: 4cm;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0 0 15px #000;
+    font-size: 18px;
+    color: #191970;
+}
+
+.b-popup-content a{
+    margin: 3cm 0 0 7cm;
+    text-decoration: none;
+    color: #191970;
+}
+.b-popup-content a:hover{
+    color:#e53e3e;
+}
+.main_page div{
+    display: inline-block;
+    margin:40px 60px 20px 80px;
+}
+.main_page a{
+    text-decoration: none;
+    color: #191970;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9cm;
+}
+.main_page a:hover{
+    color:#008080;
+}
+.main_page2{
+    font-size: 20px;
+    color: #191970;
+}
+.main_h1{
+    color: #191970;
+}
